@@ -42,7 +42,9 @@ public class Majic8ballproject {
         else if (100 >= firstNumber && firstNumber > 90) {
             System.out.println("Very doubtful");
         }
-
+        else if (10000000 >= firstNumber && firstNumber > 100) {
+            System.out.println("YOU ARE A DISGRACE TO HUMANITY I SAID 1-100");
+        }
 
 
 
