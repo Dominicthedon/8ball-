@@ -9,30 +9,216 @@ public class Majic8ballproject {
         int firstNumber;
         String question;
         keyboard = new Scanner(System.in);
+        System.out.println("Welcome to your Majic 8-Ball");
         System.out.println("Please pick a number 1-100");
         firstNumber= keyboard.nextInt();
         if (10 >= firstNumber && firstNumber > 0) {
             System.out.println("Yes");
         }
-        if (20 >= firstNumber && firstNumber > 10) {
+        else if (20 >= firstNumber && firstNumber > 10) {
             System.out.println("Most likely no");
         }
-        if (30 >= firstNumber && firstNumber > 20) {
+        else if (30 >= firstNumber && firstNumber > 20) {
             System.out.println("As I see it yes");
         }
-        if (40 >= firstNumber && firstNumber > 30) {
+        else if (40 >= firstNumber && firstNumber > 30) {
             System.out.println("Outlook Not so good");
         }
-        if ( 50 >= firstNumber && firstNumber > 40) {
+        else if ( 50 >= firstNumber && firstNumber > 40) {
             System.out.println("NO");
         }
-         
+        else if (60 >= firstNumber && firstNumber > 50) {
+            System.out.println("This will happen to you soon");
+        }
+        else if (70 >= firstNumber && firstNumber > 60) {
+            System.out.println("My sources say no");
+        }
+        else if (80 >= firstNumber && firstNumber > 70) {
+            System.out.println("As I see it,yes");
+        }
+        else if (90 >= firstNumber && firstNumber > 80) {
+            System.out.println("Dont count on it");
+        }
+        else if (100 >= firstNumber && firstNumber > 90) {
+            System.out.println("Very doubtful");
+        }
 
 
 
 
 
-            }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    }
         }
 
 
